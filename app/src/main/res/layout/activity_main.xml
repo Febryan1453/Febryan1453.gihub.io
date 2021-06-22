@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_move"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="move"
+        android:text="Move"/>
+
+    <Button
+        android:id="@+id/btn_move_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moveData"
+        android:text="Move Data"/>
+
+    <Button
+        android:id="@+id/btn_move_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moveObject"
+        android:text="Move Object"/>
+
+    <Button
+        android:id="@+id/btn_move_with_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moveWithResult"
+        android:text="Move with result"/>
+
+    <Button
+        android:id="@+id/btn_move_data_to_application"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moveDataToApplication"
+        android:text="Move Data to application"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Barang"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tv_nama_barang"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Barang"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tv_jumlah_barang"/>
+
+
+
+
+</LinearLayout>
